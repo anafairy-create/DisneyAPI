@@ -5,7 +5,6 @@
    font-family: Arial, sans-serif;
  }
 
-
  body {
    margin: 0;
    color: white;
@@ -20,19 +19,19 @@
    color: white;
    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
  }
-  
-  .header-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-}
 
-  .header-content img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-  }
+ .header-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+ }
+
+ .header-content img {
+   width: 50px;
+   height: 50px;
+   object-fit: contain;
+ }
 
  h1 {
    margin: 0;
@@ -69,12 +68,12 @@
  }
 
  .card-content {
-    padding: 15px;
-}
+   padding: 15px;
+ }
 
  .card h2 {
    color: #333d70;
-   font-family: New Walt Disney Font ;
+   font-family: New Walt Disney Font;
    font-size: 25px;
  }
 
@@ -110,9 +109,34 @@
  }
 
  .loading {
-    text-align: center;
-    font-family: 'New Walt Disney Font';
-    font-size: 20px;
-    margin-top: 50px;
-    color: #a95880;
-}
+   text-align: center;
+   font-family: 'New Walt Disney Font';
+   font-size: 20px;
+   margin-top: 50px;
+   color: #a95880;
+ }
+
+ footer {
+   background: linear-gradient(90deg, #808bc8, #e495bd, #e8c65e);
+   margin-top: 40px;
+   padding: 30px 20px;
+   text-align: center;
+   color: white;
+ }
+
+ .footer-container h2 {
+   color: #facc15;
+   margin-bottom: 10px;
+   font-family: 'New Walt Disney Font';
+ }
+
+ .footer-container p {
+   font-size: 14px;
+   margin: 5px 0;
+   color: #e2e8f0;
+ }
+
+ .textinho {
+   font-size: 12px;
+   opacity: 0.7;
+ }
